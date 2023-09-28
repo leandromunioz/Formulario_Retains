@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap"
+        rel="stylesheet">
+
+    <title>Formulario Retains</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="img/retain.jpeg" alt="Logo Retains" class="logo">
+
+        <section class="doctor">
+            <h3 class="doctor__titular">Completá con los datos del profesional</h3>
+            <input type="text" id="nombre-doctor" placeholder="Nombre del doctor*">
+
+            <input type="text" id="apellido-doctor" placeholder="Apellido del Doctor*">
+        </section>
+
+        <section class="paciente">
+            <h3 class="paciente__titular">Completá con tus datos personales</h3>
+
+            <input type="text" id="nombre-paciente" placeholder="Nombre del paciente*">
+
+            <input type="text" id="apellido-paciente" placeholder="Apellido del paciente*">
+
+            <input type="text" id="dni-paciente" placeholder="DNI del paciente*">
+        </section>
+
+        <section class="envio">
+            <h3>Completá con tus datos para el envío</h3>
+            <label>
+                <input type="radio" name="envio" value="coordinar" checked>
+                Coordinaré con atención al cliente
+            </label>
+
+            <label>
+                <input type="radio" name="envio" value="direccion">
+                Ingresar dirección de envío
+            </label>
+
+            <div class="direccion">
+                <input type="text" id="calle" placeholder="Ingrese su calle*">
+
+                <input type="text" id="piso" placeholder="Ingrese Número/Altura*">
+
+                <input type="text" id="depto" placeholder="Ingrese Depto">
+
+                <input type="text" id="codigo-postal" placeholder="Ingrese su Código Postal*">
+
+                <input type="text" id="ciudad" placeholder="Ingrese su Ciudad*">
+
+                <input type="text" id="provincia" placeholder="Ingrese su Provincia*">
+            </div>
+        </section>
+
+        <section class="pedido">
+
+            <h3>Elegí el pedido que desees</h3>
+
+           
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Seleccionar item</th>
+                            <th>Unidades</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Un Maxilar</td>
+                            <td>1 unidad</td>
+                            <td>$14.800</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Un Maxilar</td>
+                            <td>3 unidades</td>
+                            <td>$21.800</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Ambos Maxilares</td>
+                            <td>1 juego</td>
+                            <td>$20.600</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Ambos Maxilares</td>
+                            <td>3 juegos</td>
+                            <td>$34.300</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Retain Adicionales</td>
+                            <td>1 unidad</td>
+                            <td>$9.000</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pedido"> Retain Adicionales</td>
+                            <td>2 unidades</td>
+                            <td>$16.600</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+        </section>
+
+
+
+        <section class="observaciones">
+            <h3>Observaciones</h3>
+            <textarea id="observaciones" placeholder="Ingrese aquí las observaciones que crea necesarias..."></textarea>
+        </section>
+
+        <button class="solicitar">Solicitar Retains</button>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
