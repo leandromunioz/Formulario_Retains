@@ -24,7 +24,7 @@ body {
 }
 
 section {
-    background: rgb(255, 255, 255);
+    background: rgb(254, 252, 248);
     margin: 2rem 0;
     padding: 2rem;
     border-radius: 0.5rem;
@@ -103,7 +103,7 @@ textarea {
     margin-bottom: 2rem;
     border: 0.1rem solid #ded95a;
     border-radius: 0.5rem;
-    background-color: rgb(255, 247, 249);
+    background-color: rgb(254, 252, 248);
     font-size: 1.5rem;
 }
 
@@ -170,8 +170,7 @@ button.solicitar:hover {
         margin: 1rem 0;
     }
 
-    .doctor__titular,
-    .paciente__titular {
+    h3 {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
