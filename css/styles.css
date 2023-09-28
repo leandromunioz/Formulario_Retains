@@ -1,0 +1,198 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #ffffff;
+
+}
+
+
+.container {
+    width: 80rem;
+    margin: auto;
+}
+
+.logo {
+
+    display: block;
+    width: 100%;
+    margin: 2rem auto;
+    animation: fadeIn 2.5s ease-in-out;
+
+}
+
+section {
+    background: rgb(255, 255, 255);
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #54b8dc;
+}
+
+table{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;  
+}
+
+h3 {
+
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262525;
+}
+
+th {
+    font-size: 1.8rem;
+    color: #262525;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;  
+}
+
+td {    
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;  
+    font-size: 1.4rem;
+}
+
+
+.pedido td,
+.pedido th {
+    border-bottom: 1rem solid transparent;
+    padding: 1rem;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;  
+}
+
+.doctor__titular {
+
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262525;
+
+}
+
+.paciente__titular {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262525;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: #545454;
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #ded95a;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 247, 249);
+    font-size: 1.5rem;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.direccion {
+    display: none;
+}
+
+button.solicitar {
+    display: block;
+    width: 23rem;
+    height: 5rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1.8rem;
+    background: #54b8dc;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button.solicitar:hover {
+    background: #3ea2c1;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Media Query para pantallas menores a 768px */
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .logo {
+        margin: 1rem auto;
+    }
+
+    section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .doctor__titular,
+    .paciente__titular {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    label,
+    input[type="text"],
+    textarea,
+    button.solicitar {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"],
+    textarea {
+        width: calc(100% - 2rem);
+        margin-bottom: 1rem;
+    }
+
+    button.solicitar {
+        width: 100%;
+        height: 4.3rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+}
