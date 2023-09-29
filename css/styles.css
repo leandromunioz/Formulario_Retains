@@ -59,7 +59,7 @@ td {
     text-align: left;
     margin-left: 0;
     padding-left: 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 
@@ -108,7 +108,7 @@ textarea {
     border: 0.1rem solid #ded95a;
     border-radius: 0.5rem;
     background-color: rgb(255, 254, 252);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 input[type="radio"] {
