@@ -59,7 +59,7 @@ td {
     text-align: left;
     margin-left: 0;
     padding-left: 0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
 }
 
@@ -183,7 +183,7 @@ button.solicitar:hover {
     input[type="text"],
     textarea,
     button.solicitar {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     input[type="text"],
@@ -198,4 +198,10 @@ button.solicitar:hover {
         margin: 1rem auto;
         padding: 0.5rem;
     }
+
+    td {
+        font-size: 1.5rem;
+    
+    }
+    
 }
